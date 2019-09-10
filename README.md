@@ -1,7 +1,7 @@
 # Investor-sentiment-and-bond-risk-premia-in-SAS
 这是一篇论文的复现，使用SAS语言。
 
-论文在仓库里，点击PDF文件即可阅读。
+论文在仓库里，点击`Laborda and Olmo 2014 .pdf`即可阅读。
 
 所有的数据都在`sentiment`文件夹内。
 
