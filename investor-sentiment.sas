@@ -336,7 +336,7 @@ run;
         model rx_&i = CP BW LN;
     run;
     
-    %if i=1 %then %do;
+    %if i=2 %then %do;
         data rx_predict_all;
             set rx_predict_&i;
         run;
@@ -350,3 +350,6 @@ run;
 %mend predict;
 %predict;
    
+proc export data=rx_predict_all 
+            outfile="&Project/rx_predict_all.csv";
+run;
